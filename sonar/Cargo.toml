@@ -1,0 +1,11 @@
+[package]
+name = "sonar"
+version = "0.1.0"
+authors = ["toxicwolf <toxic.wolf666@gmail.com>"]
+
+[dependencies]
+sonar-window = { version = "0.1.0", path = "../sonar-window", optional = true }
+
+[features]
+default = ["window"]
+window = ["sonar-window"]

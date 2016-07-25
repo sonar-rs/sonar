@@ -1,0 +1,4 @@
+[package]
+name = "sonar-window"
+version = "0.1.0"
+authors = ["toxicwolf <toxic.wolf666@gmail.com>"]
