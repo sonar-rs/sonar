@@ -1,4 +1,9 @@
 [package]
 name = "sonar-window"
 version = "0.1.0"
-authors = ["toxicwolf <toxic.wolf666@gmail.com>"]
+authors = ["James Chapman <toxic.wolf666@gmail.com>"]
+description = "Cross-platform window and graphics context creation library"
+license = "MIT/Apache-2.0"
+
+homepage = "https://github.com/toxicwolf/sonar"
+repository = "https://github.com/toxicwolf/sonar"
