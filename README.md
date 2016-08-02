@@ -1,9 +1,27 @@
 # Sonar
 
-[![crates.io](https://img.shields.io/crates/v/sonar.svg)](https://crates.io/crates/sonar)
-[![License](https://img.shields.io/crates/l/sonar.svg)](https://crates.io/crates/sonar)
+[![Build Status](https://img.shields.io/travis/toxicwolf/sonar/master.svg?style=flat-square)](https://travis-ci.org/toxicwolf/sonar)
+[![crates.io](https://img.shields.io/crates/v/sonar.svg?style=flat-square)](https://crates.io/crates/sonar)
+[![License](https://img.shields.io/crates/l/sonar.svg?style=flat-square)](https://crates.io/crates/sonar)
 
 3D game engine written in Rust
+
+[Documentation](https://toxicwolf.github.io/sonar)
+
+## Usage
+
+Add this to your `Cargo.toml`:
+
+```toml
+[dependencies]
+sonar = "*"
+```
+
+and this to your crate root:
+
+```rust
+extern crate sonar;
+```
 
 ## License
 
