@@ -9,8 +9,10 @@ homepage = "https://github.com/toxicwolf/sonar"
 repository = "https://github.com/toxicwolf/sonar"
 
 [dependencies]
-sonar-window = { version = "0.1.0", path = "../sonar-window", optional = true }
+sonar-window = { version = "0.1.0", path = "src/window", optional = true }
 
 [features]
 default = ["window"]
 window = ["sonar-window"]
+
+[workspace]

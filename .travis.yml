@@ -12,7 +12,6 @@ before_script:
         export PATH=$HOME/.local/bin:$PATH
 script:
     - |
-        cd sonar &&
         travis-cargo build &&
         travis-cargo --only stable doc
 after_success:
