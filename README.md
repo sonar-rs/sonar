@@ -1,6 +1,7 @@
 # Sonar
 
-[![Build Status](https://img.shields.io/travis/toxicwolf/sonar/master.svg?style=flat-square)](https://travis-ci.org/toxicwolf/sonar)
+[![Linux Build Status](https://img.shields.io/travis/toxicwolf/sonar/master.svg?label=linux%20build&style=flat-square)](https://travis-ci.org/toxicwolf/sonar)
+[![Windows Build Status](https://img.shields.io/appveyor/ci/toxicwolf/sonar/master.svg?label=windows%20build&style=flat-square)](https://ci.appveyor.com/project/toxicwolf/sonar)
 [![crates.io](https://img.shields.io/crates/v/sonar.svg?style=flat-square)](https://crates.io/crates/sonar)
 [![License](https://img.shields.io/crates/l/sonar.svg?style=flat-square)](https://crates.io/crates/sonar)
 
