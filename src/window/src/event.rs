@@ -6,10 +6,6 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-mod event;
-mod monitor;
-mod window;
-
-pub use event::*;
-pub use monitor::*;
-pub use window::*;
+pub enum Event {
+    Closed
+}
