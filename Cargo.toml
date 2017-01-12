@@ -1,12 +1,13 @@
 [package]
 name = "sonar"
 version = "0.1.0"
-authors = ["James Chapman <toxic.wolf666@gmail.com>"]
+authors = ["James Chapman <jchapman3000@gmail.com>"]
 description = "3D game engine written in Rust"
 license = "MIT/Apache-2.0"
 
-homepage = "https://github.com/toxicwolf/sonar"
-repository = "https://github.com/toxicwolf/sonar"
+homepage = "https://github.com/sonar-rs/sonar"
+repository = "https://github.com/sonar-rs/sonar"
+documentation = "https://sonar-rs.github.io/sonar/sonar/index.html"
 
 [dependencies]
 sonar-window = { version = "0.1.0", path = "src/window", optional = true }
