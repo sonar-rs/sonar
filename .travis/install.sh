@@ -53,16 +53,10 @@ EOF
     fi
 }
 
-install_travis_cargo() {
-    pip install 'travis-cargo<0.2' --user
-}
-
 main() {
     install_rustup
     install_toolchain
     configure_linker
-
-    install_travis_cargo
 }
 
 main
