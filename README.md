@@ -7,7 +7,21 @@
 
 3D game engine written in Rust
 
+**DISCLAIMER: This library is a very early work in progress and not ready for general use!**
+
 [Documentation](https://sonar-rs.github.io/sonar)
+
+## Design Goals
+
+- Minimal boilerplate required
+- Sane defaults
+- Highly scaleable for non-trivial use cases
+- Allow for 'dropping down' to lower abstraction levels
+- Cross-platform support (Linux/Windows)
+- Vulkan support
+
+Non-goals:
+- Support for multiple graphics backends
 
 ## Usage
 
