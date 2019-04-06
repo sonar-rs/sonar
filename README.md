@@ -1,7 +1,6 @@
 # Sonar
 
-[![Linux Build Status](https://img.shields.io/travis/sonar-rs/sonar/master.svg?label=linux%20build&style=flat-square)](https://travis-ci.org/sonar-rs/sonar)
-[![Windows Build Status](https://img.shields.io/appveyor/ci/toxicwolf/sonar/master.svg?label=windows%20build&style=flat-square)](https://ci.appveyor.com/project/toxicwolf/sonar)
+[![Azure DevOps builds](https://img.shields.io/azure-devops/build/sonar-rs/5c991520-a1fe-4dc3-8bbd-dcc44d24d1b7/1.svg?style=flat-square)](https://dev.azure.com/sonar-rs/sonar/_build/latest?definitionId=1)
 [![crates.io](https://img.shields.io/crates/v/sonar.svg?style=flat-square)](https://crates.io/crates/sonar)
 [![License](https://img.shields.io/crates/l/sonar.svg?style=flat-square)](https://crates.io/crates/sonar)
 
@@ -9,7 +8,7 @@
 
 **DISCLAIMER: This library is a very early work in progress and not ready for general use!**
 
-[Documentation](https://sonar-rs.github.io/sonar)
+[Documentation](https://docs.rs/sonar)
 
 ## Design Goals
 
