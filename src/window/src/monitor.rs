@@ -6,8 +6,7 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-pub struct VideoMode {
-}
+pub struct VideoMode {}
 
 impl VideoMode {
     pub fn size(&self) -> (u32, u32) {
@@ -19,8 +18,7 @@ impl VideoMode {
     }
 }
 
-pub struct Monitor {
-}
+pub struct Monitor {}
 
 impl Monitor {
     pub fn pos(&self) -> (u32, u32) {

@@ -7,5 +7,5 @@
 // except according to those terms.
 
 pub enum Event {
-    Closed
+    Closed,
 }

@@ -13,7 +13,7 @@ use Monitor;
 pub struct WindowAttributes<'a, 'b> {
     pub title: &'a str,
     pub size: Option<(u32, u32)>,
-    pub monitor: Option<&'b Monitor>
+    pub monitor: Option<&'b Monitor>,
 }
 
 impl<'a, 'b> Default for WindowAttributes<'a, 'b> {
@@ -21,17 +21,17 @@ impl<'a, 'b> Default for WindowAttributes<'a, 'b> {
         WindowAttributes {
             title: "Sonar Application",
             size: None,
-            monitor: None
+            monitor: None,
         }
     }
 }
 
 pub struct PollEvents<'a> {
-    window: &'a Window
+    window: &'a Window,
 }
 
 pub struct WaitEvents<'a> {
-    window: &'a Window
+    window: &'a Window,
 }
 
 impl<'a> Iterator for PollEvents<'a> {
@@ -50,13 +50,14 @@ impl<'a> Iterator for WaitEvents<'a> {
     }
 }
 
-pub struct Window {
-}
+pub struct Window {}
 
 impl Window {
     pub fn new(mut attributes: WindowAttributes) -> Result<Self, ()> {
         if attributes.size.is_none() {
-            attributes.size = attributes.monitor.map_or(Some((1024, 768)), |m| Some(m.size()));
+            attributes.size = attributes
+                .monitor
+                .map_or(Some((1024, 768)), |m| Some(m.size()));
         }
 
         Ok(Window {})
@@ -73,12 +74,14 @@ impl Window {
 
 #[derive(Copy, Clone)]
 pub struct WindowBuilder<'a, 'b> {
-    pub attributes: WindowAttributes<'a, 'b>
+    pub attributes: WindowAttributes<'a, 'b>,
 }
 
 impl<'a, 'b> WindowBuilder<'a, 'b> {
     pub fn new() -> Self {
-        WindowBuilder { attributes: WindowAttributes::default() }
+        WindowBuilder {
+            attributes: WindowAttributes::default(),
+        }
     }
 
     pub fn title(&mut self, title: &'a str) -> &mut Self {
